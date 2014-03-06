@@ -1,1 +1,3 @@
 cache/*
+.htaccess
+config/settings.inc.php
