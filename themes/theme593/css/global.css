@@ -31,13 +31,17 @@ STRUCTURE
 ************************************************************************************************ */
 #wrapp{background:#F1F1F1; position:relative; overflow:hidden; width:100%;}
 #wrapp_2{ margin:0 auto;  padding: 0;text-align: left;}
-#right_column{padding:31px 0px 0px 0px;}
+#right_column{padding:38px 0px 0px 0px;}
 #product #right_column {padding:35px 0 0 0;}
 #left_column{ display:none;}
 body#index #right_column{ display:none;}
 body#index .instant + #right_column{ display:block;}
-#center_column{ padding-bottom:30px;}
-#product #center_column{ padding-bottom:30px;}
+#center_column{ background:#FFF;margin:0;}
+#category #center_column { padding: 0 10px 30px 10px; box-shadow: 1px 1px 22px rgba(0,0,0,0.7);}
+#category .span3{width:270px;}
+#product .breadcrumb_inset{ padding: 0px 10px;}
+#product #center_column {box-shadow: 1px 1px 10px rgba(0,0,0,0.7);}
+#product #center_column{ padding-bottom:0px;}
 body#index #center_column {padding-bottom:0px;}
 /* ************************************************************************************************
 MAIN STYLE STORE
@@ -270,7 +274,7 @@ SUBCATEGORIES
 ************************************************************************************************ */
 #header {position:relative;z-index:101;padding:0px;}
 #header_logo {display:block;position:absolute;left:0px;top:41px;}
-#header-inner{ padding:169px 0px 0px 0px; position:relative;}
+#header-inner{ padding:169px 0px 0px 0px; position:relative;background: #FFF;}
 
 
 /* ************************************************************************************************
@@ -365,7 +369,7 @@ body#index a.header_links_home,
 ************************************************************************************************ */
 .column .block {margin:0 0 0px 0;}
 .column .block h4 {color:#1c1c1c; font-size:17px; text-transform:uppercase;font-weight:bold;padding:15px 0px 5px 0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; margin:0 0 20px 0; border-bottom:3px solid #000000;}
-.column .block h4 span{ background:#fff;padding-right:5px;color:#333333;font-weight:bold;}
+.column .block h4 span{ padding-right:5px;color:#333333;font-weight:bold;}
 .column .block h4 a:hover {color:#8b12a0;}
 .column .block .block_content .button_large {margin:20px 0px 0px 0;}
 .column .block h4 span.column_icon_toggle{ display:none;}
@@ -574,7 +578,7 @@ BLOCK CART
 #cart_block #cart-buttons  #button_order_cart span {}
 #cart_block p#cart-buttons {padding:10px 0 0 0px; margin:0;border-top:1px dotted #b2b2b2;}
 #cart_block p#cart-buttons a.button_mini  {float:left;margin-right:10px;}
-.page_product_box h3{ padding:9px 50px 9px 20px; position:relative;display:block;margin:20px 0 0 0;background:#ff553d;font-weight:normal;font-size:20px;line-height: 1.5;color: #fff; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.page_product_box h3{ padding:9px 50px 9px 20px; position:relative;display:block;margin:20px 0 0 0;background:black;font-weight:normal;font-size:20px;line-height: 1.5;color: #fff; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
 .page_product_box.blockproductscategory h3{ margin-top:17px;}
 .page_product_box.accordion h3.active{background:#000}
 .page_product_box.accordion h3 .icon-toggle{width:26px; height:26px; position:absolute; right:12px; top:10px;background: url(../img/sprite_clothes.png) no-repeat 0 -797px;}
@@ -614,7 +618,7 @@ opacity:0; filter:alpha(opacity=0); -moz-transition: opacity 300ms ease, left 30
 /* ************************************************************************************************
 		BREADCRUMB
 ************************************************************************************************ */
-.breadcrumb {margin:-10px 0 0px 0px;background:none;border-radius:0px;padding:7px 0 7px 0px;background:#f8f8f8;width:1170px; font-size:14px; }
+.breadcrumb {margin:0px;background:none;border-radius:0px;padding:7px 0 7px 0px;background:#FFF;width:100%; font-size:14px; border-bottom: 1px solid #7a7a7a; }
 .breadcrumb span{ display:inline;}
 .breadcrumb a {font-size:14px;line-height:22px;}
 .breadcrumb a i{ vertical-align:-4px;}
@@ -623,7 +627,7 @@ opacity:0; filter:alpha(opacity=0); -moz-transition: opacity 300ms ease, left 30
 .breadcrumb-home:hover { }
 .breadcrumb .navigation-pipe {margin:0 10px 0 10px;font-size:14px;line-height:22px;}
 .breadcrumb .navigation_page{font-size:14px;line-height:22px;}
-.breadcrumb_inset{ padding-left:10px;}
+.breadcrumb_inset{ padding-left:0px;}
 /* ************************************************************************************************
 CONTACT PAGE
 ************************************************************************************************ */
@@ -779,7 +783,7 @@ PDODUCT PAGE
 #pb-left-column #short_description_block #short_description_content p{ margin-bottom:0;}
 /* buy_block */
 #buy_block{ margin-bottom:10px; padding-top:5px;}
-.extra-box-product{}
+.extra-box-product{background:#FFF;}
 #product p#loyalty {border-top: 1px dotted #ccc;margin-top:4px;padding:16px 0 14px 0px; margin-bottom:0;}
 #product p#loyalty em{ display:inline;}
 #product p#loyalty i{ font-size:25px; float:left; margin-right:10px; margin-top:7px;text-align:left;}
@@ -875,7 +879,7 @@ span.our_price_display{padding-top:7px;font-size:24px;line-height:18px;display:i
 ************************************************************************************************ */
 .block.blockcms_footer{ margin-left:0;}
 footer .modules{ position:relative; padding-bottom:70px;border-top:6px solid #000000; margin:0;}
-footer .block h4{ font-size:17px; color:#1c1c1c; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; padding:0; margin:25px 0 15px 0; border-bottom:3px solid #000000}
+footer .block h4{ font-size:17px; color:#1c1c1c; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; padding:0; margin:15px 0 15px 0; border-bottom:3px solid #000000}
 footer .block h4 a{color:#1c1c1c; font-weight:bold;}
 footer .block a{color:#7a7a7a;}
 footer .block a:hover{color:#ff5b44;}
@@ -1355,7 +1359,7 @@ form#sendComment h3 {font-size:14px;}
 
 
 /* TAB COMMENTS ******************************************************************************** */
-#product_comments_block_tab {margin:0 0 0px 0}
+#product_comments_block_tab {margin:0; padding-left: 10px;}
 #product_comments_block_tab div.comment {margin:0 0 15px 0;padding:17px 0 0px 0px; border-top:1px dotted #ccc;}
 #product_comments_block_tab div.comment.last{ margin-bottom:0;}
 #product_comments_block_tab div.comment:first-child{ border:none; padding:0;}
