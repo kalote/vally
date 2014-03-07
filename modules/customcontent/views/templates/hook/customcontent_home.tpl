@@ -2,6 +2,7 @@
   {if $itemPos->hook == 'home'}{assign var='HomeHook' value='true'}{/if}
 {/foreach}
 {if isset($HomeHook) && $HomeHook=='true'}
+<div id="containerMain">
 <div id="customcontent_home">
   <ul class="customcontent-home">
     {foreach from=$xml->item item=item name=items}

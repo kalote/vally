@@ -25,4 +25,5 @@
     {/foreach}
   </ul>
 </div>
+</div>
 {/if}

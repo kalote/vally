@@ -1,4 +1,15 @@
 /*Frontend Styles*/
+#containerMain{
+	margin: 0 auto;
+	width:1030px;
+}
+#containerMain:before, #containerMain:after{
+	content: " ";
+	display: table;
+}
+#containerMain:after{
+	clear:both;
+}
 #customcontent_home{ float:left; margin-right:30px;}
 #customcontent_home ul {
   margin:0px;
@@ -7,7 +18,7 @@
 #customcontent_home ul li > a{ display:block;}
 #customcontent_home ul li {
   list-style: none;
-  width:370px;
+  width:250px;
   padding:0px;
   box-sizing: border-box;
   margin-bottom:30px;
