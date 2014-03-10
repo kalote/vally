@@ -25,7 +25,7 @@
 *}
 
 <!-- MODULE Block contact infos -->
-<section class="block blockcontactinfos span3">
+<section class="block blockcontactinfos span4">
 	<h4>{l s='Contact us' mod='blockcontactinfos'}</h4>
 	<ul class="toggle_content">
 		{if $blockcontactinfos_company != ''}<li><strong>{$blockcontactinfos_company|escape:'htmlall':'UTF-8'}</strong></li>{/if}

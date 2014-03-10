@@ -117,8 +117,8 @@
                                    {$HOOK_LEFT_COLUMN}
                                 </aside>   
                          {if $page_name == 'index'}    
-                         <div id="center_column" class="center_column span10 clearfix">
+                         <div id="center_column" class="center_column span12 clearfix">
                         {else}
-                          <div id="center_column" class="center_column span10 clearfix">
+                          <div id="center_column" class="center_column span9 clearfix">
                         {/if} 
 {/if} 
