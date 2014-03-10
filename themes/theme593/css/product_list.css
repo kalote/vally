@@ -6,7 +6,6 @@
 #product_list .product_flags span.new { color:#000;}
 #product_list .product_flags span.online_only { margin-right:0;}
 #product_list .right_block span.on_sale,#product_list .right_block span.discount {display:block;margin:-1px 0 20px 0; color:#ff604a;}
-#product_list li .center_block, #product_list li .right_block{text-align: center;}
 .list {padding:0px 0px 0 0; margin:0;}
 .list li.last_item{ padding-bottom:0;margin-bottom:0px;}
 .list li.first_item{ border:none!important;}

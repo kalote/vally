@@ -1,7 +1,7 @@
 /*Frontend Styles*/
 #containerMain{
 	margin: 0 auto;
-	width:880px;
+	width:1030px;
 }
 #containerMain:before, #containerMain:after{
 	content: " ";
@@ -18,7 +18,7 @@
 #customcontent_home ul li > a{ display:block;}
 #customcontent_home ul li {
   list-style: none;
-  width:220px;
+  width:250px;
   padding:0px;
   box-sizing: border-box;
   margin-bottom:30px;
