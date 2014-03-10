@@ -119,6 +119,6 @@
                          {if $page_name == 'index'}    
                          <div id="center_column" class="center_column span10 clearfix">
                         {else}
-                          <div id="center_column" class="center_column span10 clearfix">
+                          <div id="center_column" class="center_column span10  clearfix">
                         {/if} 
 {/if} 
